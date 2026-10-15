@@ -1,0 +1,150 @@
+{
+  "atualizado_em": "2026-10-15T13:19:44.763452251Z",
+  "geral": "degradado",
+  "servicos": [
+    {
+      "id": "api",
+      "nome": "API",
+      "grupo": "Plataforma",
+      "status": "online",
+      "latencia_ms": 763,
+      "desde": "2026-10-15T13:19:44.763452251Z"
+    },
+    {
+      "id": "api-web",
+      "nome": "API Web",
+      "grupo": "Plataforma",
+      "status": "online",
+      "latencia_ms": 789,
+      "desde": "2026-10-15T13:19:44.763452251Z"
+    },
+    {
+      "id": "engine",
+      "nome": "Engine",
+      "grupo": "Plataforma",
+      "status": "ignorado",
+      "latencia_ms": null,
+      "desde": null
+    },
+    {
+      "id": "engine-proxy",
+      "nome": "Engine via API",
+      "grupo": "Plataforma",
+      "status": "online",
+      "latencia_ms": 766,
+      "desde": "2026-10-15T13:19:44.763452251Z"
+    },
+    {
+      "id": "arnut",
+      "nome": "Arnut",
+      "grupo": "Plataforma",
+      "status": "ignorado",
+      "latencia_ms": null,
+      "desde": null
+    },
+    {
+      "id": "n8n",
+      "nome": "n8n",
+      "grupo": "Plataforma",
+      "status": "ignorado",
+      "latencia_ms": null,
+      "desde": null
+    },
+    {
+      "id": "easypanel",
+      "nome": "EasyPanel",
+      "grupo": "Plataforma",
+      "status": "ignorado",
+      "latencia_ms": null,
+      "desde": null
+    },
+    {
+      "id": "site",
+      "nome": "Site (nutraentes.com.br)",
+      "grupo": "Domínios",
+      "status": "online",
+      "latencia_ms": 878,
+      "desde": "2026-10-15T13:19:44.763452251Z"
+    },
+    {
+      "id": "workspace",
+      "nome": "Workspace",
+      "grupo": "Domínios",
+      "status": "online",
+      "latencia_ms": 1149,
+      "desde": "2026-10-15T13:19:44.763452251Z"
+    },
+    {
+      "id": "admin",
+      "nome": "Admin",
+      "grupo": "Domínios",
+      "status": "online",
+      "latencia_ms": 1229,
+      "desde": "2026-10-15T13:19:44.763452251Z"
+    },
+    {
+      "id": "kids",
+      "nome": "Kids",
+      "grupo": "Domínios",
+      "status": "online",
+      "latencia_ms": 1203,
+      "desde": "2026-10-15T13:19:44.763452251Z"
+    },
+    {
+      "id": "dns-api",
+      "nome": "DNS api",
+      "grupo": "Domínios",
+      "status": "online",
+      "latencia_ms": 481,
+      "desde": "2026-10-15T13:19:44.763452251Z"
+    },
+    {
+      "id": "dns-api-web",
+      "nome": "DNS api-web",
+      "grupo": "Domínios",
+      "status": "online",
+      "latencia_ms": 549,
+      "desde": "2026-10-15T13:19:44.763452251Z"
+    },
+    {
+      "id": "postgres",
+      "nome": "Postgres",
+      "grupo": "Bancos de dados",
+      "status": "ignorado",
+      "latencia_ms": null,
+      "desde": null
+    },
+    {
+      "id": "firebase",
+      "nome": "Firebase Auth",
+      "grupo": "Bancos de dados",
+      "status": "ignorado",
+      "latencia_ms": null,
+      "desde": null
+    },
+    {
+      "id": "qdrant",
+      "nome": "Qdrant",
+      "grupo": "Bancos de dados",
+      "status": "ignorado",
+      "latencia_ms": null,
+      "desde": null
+    },
+    {
+      "id": "cloudflare",
+      "nome": "Cloudflare (status global)",
+      "grupo": "Infra externa",
+      "status": "degradado",
+      "latencia_ms": 64,
+      "desde": "2026-10-15T13:19:44.763452251Z"
+    },
+    {
+      "id": "cloudflare-conta",
+      "nome": "Cloudflare (conta)",
+      "grupo": "Infra externa",
+      "status": "ignorado",
+      "latencia_ms": null,
+      "desde": null
+    }
+  ]
+}

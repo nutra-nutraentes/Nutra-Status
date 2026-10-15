@@ -1,0 +1,92 @@
+{
+  "admin": [
+    {
+      "dia": "2026-10-15",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    }
+  ],
+  "api": [
+    {
+      "dia": "2026-10-15",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    }
+  ],
+  "api-web": [
+    {
+      "dia": "2026-10-15",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    }
+  ],
+  "cloudflare": [
+    {
+      "dia": "2026-10-15",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 1,
+      "uptime_pct": 100.0
+    }
+  ],
+  "dns-api": [
+    {
+      "dia": "2026-10-15",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    }
+  ],
+  "dns-api-web": [
+    {
+      "dia": "2026-10-15",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    }
+  ],
+  "engine-proxy": [
+    {
+      "dia": "2026-10-15",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    }
+  ],
+  "kids": [
+    {
+      "dia": "2026-10-15",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    }
+  ],
+  "site": [
+    {
+      "dia": "2026-10-15",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    }
+  ],
+  "workspace": [
+    {
+      "dia": "2026-10-15",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    }
+  ]
+}

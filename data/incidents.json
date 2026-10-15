@@ -1,0 +1,12 @@
+[
+  {
+    "id": "cloudflare-1792070384",
+    "servico": "cloudflare",
+    "nome": "Cloudflare (status global)",
+    "status": "degradado",
+    "inicio": "2026-10-15T13:19:44.763452251Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 1
+  }
+]
