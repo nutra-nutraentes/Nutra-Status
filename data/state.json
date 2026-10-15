@@ -20,12 +20,26 @@
     "issue": null,
     "incidente": null
   },
+  "arnut": {
+    "status": "online",
+    "desde": "2026-10-15T13:30:27.648644115Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
+  },
   "cloudflare": {
     "status": "degradado",
     "desde": "2026-10-15T13:19:44.763452251Z",
     "ultimo_aviso": "2026-10-15T13:19:44.763452251Z",
     "issue": 1,
     "incidente": "cloudflare-1792070384"
+  },
+  "cloudflare-conta": {
+    "status": "offline",
+    "desde": "2026-10-15T13:30:27.648644115Z",
+    "ultimo_aviso": "2026-10-15T13:30:27.648644115Z",
+    "issue": 2,
+    "incidente": "cloudflare-conta-1792071027"
   },
   "dns-api": {
     "status": "online",
@@ -41,6 +55,13 @@
     "issue": null,
     "incidente": null
   },
+  "engine": {
+    "status": "online",
+    "desde": "2026-10-15T13:30:27.648644115Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
+  },
   "engine-proxy": {
     "status": "online",
     "desde": "2026-10-15T13:19:44.763452251Z",
@@ -48,9 +69,30 @@
     "issue": null,
     "incidente": null
   },
+  "firebase": {
+    "status": "online",
+    "desde": "2026-10-15T13:30:27.648644115Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
+  },
   "kids": {
     "status": "online",
     "desde": "2026-10-15T13:19:44.763452251Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
+  },
+  "postgres": {
+    "status": "online",
+    "desde": "2026-10-15T13:30:27.648644115Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
+  },
+  "qdrant": {
+    "status": "online",
+    "desde": "2026-10-15T13:30:27.648644115Z",
     "ultimo_aviso": null,
     "issue": null,
     "incidente": null
