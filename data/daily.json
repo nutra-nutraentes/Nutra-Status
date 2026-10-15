@@ -2,7 +2,7 @@
   "admin": [
     {
       "dia": "2026-10-15",
-      "checks": 2,
+      "checks": 3,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -11,7 +11,7 @@
   "api": [
     {
       "dia": "2026-10-15",
-      "checks": 2,
+      "checks": 3,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -20,7 +20,7 @@
   "api-web": [
     {
       "dia": "2026-10-15",
-      "checks": 2,
+      "checks": 3,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -29,7 +29,7 @@
   "arnut": [
     {
       "dia": "2026-10-15",
-      "checks": 1,
+      "checks": 2,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -38,25 +38,25 @@
   "cloudflare": [
     {
       "dia": "2026-10-15",
-      "checks": 2,
+      "checks": 3,
       "falhas": 0,
-      "degradados": 2,
+      "degradados": 3,
       "uptime_pct": 100.0
     }
   ],
   "cloudflare-conta": [
     {
       "dia": "2026-10-15",
-      "checks": 1,
+      "checks": 2,
       "falhas": 1,
       "degradados": 0,
-      "uptime_pct": 0.0
+      "uptime_pct": 50.0
     }
   ],
   "dns-api": [
     {
       "dia": "2026-10-15",
-      "checks": 2,
+      "checks": 3,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -65,7 +65,16 @@
   "dns-api-web": [
     {
       "dia": "2026-10-15",
-      "checks": 2,
+      "checks": 3,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    }
+  ],
+  "easypanel": [
+    {
+      "dia": "2026-10-15",
+      "checks": 1,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -74,7 +83,7 @@
   "engine": [
     {
       "dia": "2026-10-15",
-      "checks": 1,
+      "checks": 2,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -83,7 +92,7 @@
   "engine-proxy": [
     {
       "dia": "2026-10-15",
-      "checks": 2,
+      "checks": 3,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -92,7 +101,7 @@
   "firebase": [
     {
       "dia": "2026-10-15",
-      "checks": 1,
+      "checks": 2,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -101,7 +110,16 @@
   "kids": [
     {
       "dia": "2026-10-15",
-      "checks": 2,
+      "checks": 3,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    }
+  ],
+  "n8n": [
+    {
+      "dia": "2026-10-15",
+      "checks": 1,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -110,7 +128,7 @@
   "postgres": [
     {
       "dia": "2026-10-15",
-      "checks": 1,
+      "checks": 2,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -119,7 +137,7 @@
   "qdrant": [
     {
       "dia": "2026-10-15",
-      "checks": 1,
+      "checks": 2,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -128,7 +146,7 @@
   "site": [
     {
       "dia": "2026-10-15",
-      "checks": 2,
+      "checks": 3,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -137,7 +155,7 @@
   "workspace": [
     {
       "dia": "2026-10-15",
-      "checks": 2,
+      "checks": 3,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
