@@ -167,10 +167,13 @@ tipo = "statuspage"
 url = "https://www.cloudflarestatus.com/api/v2/status.json"
 
 [[check]]
+# Valida o token da Nutra na API da Cloudflare. Não usa /accounts/{id} porque o
+# token não tem a permissão "Account Settings: Read" (responde 403).
 id = "cloudflare-conta"
 nome = "Cloudflare (conta)"
 grupo = "Infra externa"
 tipo = "http"
-url = "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}"
+url = "https://api.cloudflare.com/client/v4/user/tokens/verify"
 status_ok_ate = 299
+esperar_json = { success = true }
 headers = { Authorization = "Bearer ${CLOUDFLARE_API_TOKEN}" }

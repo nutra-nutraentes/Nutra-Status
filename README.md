@@ -20,7 +20,7 @@ A lista fica em [`config/checks.toml`](config/checks.toml).
 | Plataforma | API (`/health`), API Web (`/health`, exige `banco: true`), Engine (`/health`), Engine via API, Arnut (`/info`), n8n, EasyPanel |
 | Domínios | registro **A** + HTTP de `nutraentes.com.br`, `workspace.`, `admin.`, `kids.`; registro A de `api.` e `api-web.` |
 | Bancos de dados | Postgres (`SELECT 1`), Firebase Auth (lista 1 usuário com a service account), Qdrant (`/readyz`) |
-| Infra externa | Status global da Cloudflare (cloudflarestatus.com), acesso à conta Cloudflare via API |
+| Infra externa | Status global da Cloudflare (cloudflarestatus.com), token da Cloudflare válido e ativo (`/user/tokens/verify`) |
 
 Cada checagem termina em um destes status:
 
@@ -63,7 +63,7 @@ Os alertas são enviados **só na mudança de estado**, nunca a cada rodada.
    | `ENGINE_URL`, `ARNUT_URL`, `N8N_URL`, `EASYPANEL_URL`, `QDRANT_URL` | alvos privados |
    | `DB_HOST`, `DB_PORT`, `DB_NAME`, `DB_USERNAME`, `DB_PASSWORD`, `DB_SSL`, `DB_SSL_CA` | Postgres |
    | `FIREBASE_SERVICE_ACCOUNT_JSON` | Firebase Auth |
-   | `CLOUDFLARE_ACCOUNT_ID`, `CLOUDFLARE_API_TOKEN` | conta Cloudflare |
+   | `CLOUDFLARE_API_TOKEN` | token da Cloudflare (`CLOUDFLARE_ACCOUNT_ID` não é mais necessário) |
    | `EMAIL_HOST`, `EMAIL_PORT`, `EMAIL_USERNAME`, `EMAIL_PASSWORD`, `EMAIL_FROM`, `EMAIL_FROM_NAME`, `EMAIL_USE_SSL` | SMTP |
    | `ALERT_EMAIL_TO` | destinatários (opcional) |
 
