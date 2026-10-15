@@ -20,6 +20,8 @@ jobs:
   checar:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    # Secrets e variables ficam no environment ".env" (Settings → Environments).
+    environment: .env
     steps:
       - uses: actions/checkout@v4
 

@@ -56,7 +56,7 @@ Os alertas são enviados **só na mudança de estado**, nunca a cada rodada.
 ## Configuração (uma vez)
 
 1. **Pages:** em *Settings → Pages → Build and deployment → Source*, escolha **GitHub Actions**.
-2. **Secrets:** em *Settings → Secrets and variables → Actions → Secrets*, cadastre os que forem usados. Os valores são os mesmos do `.env` da Nutra-API2.
+2. **Secrets:** em *Settings → Environments → `.env` → Environment secrets*, cadastre os que forem usados. O job `checar` usa esse environment, e secrets cadastrados em outro lugar não chegam a ele. Os valores são os mesmos do `.env` da Nutra-API2.
 
    | Secret | Uso |
    |---|---|
@@ -67,7 +67,7 @@ Os alertas são enviados **só na mudança de estado**, nunca a cada rodada.
    | `EMAIL_HOST`, `EMAIL_PORT`, `EMAIL_USERNAME`, `EMAIL_PASSWORD`, `EMAIL_FROM`, `EMAIL_FROM_NAME`, `EMAIL_USE_SSL` | SMTP |
    | `ALERT_EMAIL_TO` | destinatários (opcional) |
 
-3. **Variables** (aba *Variables*, ambas opcionais):
+3. **Variables** (em *Environment variables*, no mesmo environment `.env`; ambas opcionais):
    - `ALERT_GITHUB_USER`: seu usuário do GitHub, mencionado nas issues.
    - `STATUS_PAGE_URL`: endereço da página, se for usado um domínio próprio.
 4. Rode o workflow **Status** manualmente (*Actions → Status → Run workflow*). A primeira execução cria a branch `status-data` e publica a página.
