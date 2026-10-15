@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nutra Status</title>
+<meta name="description" content="Disponibilidade dos serviços da plataforma Nutra">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><circle cx='8' cy='8' r='6' fill='%2316a34a'/></svg>">
+<style>
+  :root {
+    --bg: #f7f8f7;
+    --card: #ffffff;
+    --texto: #18201b;
+    --suave: #5d6a62;
+    --borda: #e2e7e3;
+    --online: #16a34a;
+    --degradado: #d99a06;
+    --offline: #dc2626;
+    --vazio: #d9dfdb;
+    --destaque: #eef7f0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1411;
+      --card: #171e19;
+      --texto: #e8eee9;
+      --suave: #95a39a;
+      --borda: #27302a;
+      --online: #22c55e;
+      --degradado: #eab308;
+      --offline: #f05252;
+      --vazio: #2b352e;
+      --destaque: #18261c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--texto);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 860px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  h1 { font-size: 22px; margin: 0; letter-spacing: -0.01em; }
+  h1 span { color: var(--online); }
+  .atualizado { color: var(--suave); font-size: 13px; }
+  .banner {
+    margin: 20px 0 28px; padding: 16px 20px; border-radius: 12px;
+    font-weight: 600; font-size: 17px; color: #fff; display: flex; align-items: center; gap: 10px;
+  }
+  .banner.online { background: var(--online); }
+  .banner.degradado { background: var(--degradado); color: #1d1600; }
+  .banner.offline { background: var(--offline); }
+  .banner.carregando { background: var(--vazio); color: var(--suave); }
+  section.grupo { background: var(--card); border: 1px solid var(--borda); border-radius: 12px; margin-bottom: 18px; overflow: hidden; }
+  section.grupo h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--suave); margin: 0; padding: 14px 20px 6px; }
+  .servico { padding: 12px 20px 14px; border-top: 1px solid var(--borda); }
+  section.grupo h2 + .servico { border-top: 0; }
+  .linha { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+  .nome { font-weight: 600; display: flex; align-items: center; gap: 8px; min-width: 0; }
+  .nome b { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .ponto { width: 10px; height: 10px; border-radius: 50%; flex: none; background: var(--vazio); }
+  .ponto.online { background: var(--online); }
+  .ponto.degradado { background: var(--degradado); }
+  .ponto.offline { background: var(--offline); }
+  .meta { color: var(--suave); font-size: 13px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+  .barras { display: flex; gap: 2px; height: 30px; margin-top: 10px; }
+  .barras i { flex: 1; border-radius: 2px; background: var(--vazio); min-width: 2px; }
+  .barras i.online { background: var(--online); }
+  .barras i.degradado { background: var(--degradado); }
+  .barras i.offline { background: var(--offline); }
+  .eixo { display: flex; justify-content: space-between; color: var(--suave); font-size: 12px; margin-top: 4px; }
+  h3 { font-size: 17px; margin: 36px 0 12px; }
+  .incidente { background: var(--card); border: 1px solid var(--borda); border-radius: 12px; padding: 12px 20px; margin-bottom: 10px; }
+  .incidente.aberto { border-color: var(--offline); background: var(--destaque); }
+  .incidente .quando { color: var(--suave); font-size: 13px; }
+  .incidente a { color: inherit; }
+  .vazio { color: var(--suave); }
+  footer { margin-top: 40px; color: var(--suave); font-size: 13px; text-align: center; }
+  footer a { color: inherit; }
+  @media (max-width: 600px) {
+    .barras i:nth-child(-n+60) { display: none; }
+    .eixo .ini90 { display: none; }
+    .eixo .ini30 { display: inline !important; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1><span>●</span> Nutra Status</h1>
+    <div class="atualizado" id="atualizado"></div>
+  </header>
+  <div class="banner carregando" id="banner">Carregando…</div>
+  <div id="grupos"></div>
+  <h3>Incidentes recentes</h3>
+  <div id="incidentes"></div>
+  <footer>
+    Checagens a cada 30 minutos via GitHub Actions · uptime dos últimos 90 dias
+    <span id="repo"></span>
+  </footer>
+</main>
+<script>
+  const DIAS = 90;
+  const ORDEM_GRUPOS = ["Plataforma", "Domínios", "Bancos de dados", "Infra externa"];
+  const TEXTO_GERAL = {
+    online: "Todos os sistemas operacionais",
+    degradado: "Instabilidade parcial",
+    offline: "Há serviços fora do ar",
+  };
+  const ROTULO = { online: "Operacional", degradado: "Instável", offline: "Fora do ar", ignorado: "Sem dados" };
+
+  const repoUrl = (() => {
+    const h = location.hostname;
+    if (!h.endsWith(".github.io")) return null;
+    const dono = h.replace(".github.io", "");
+    const nome = location.pathname.split("/").filter(Boolean)[0];
+    return nome ? `https://github.com/${dono}/${nome}` : null;
+  })();
+
+  const el = (tag, attrs = {}, ...filhos) => {
+    const n = document.createElement(tag);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (k === "class") n.className = v; else n.setAttribute(k, v);
+    }
+    for (const f of filhos) n.append(f);
+    return n;
+  };
+
+  const fmtData = (d) => new Date(d).toLocaleString("pt-BR", { dateStyle: "short", timeStyle: "short" });
+
+  function fmtDuracao(seg) {
+    const min = Math.round(seg / 60);
+    if (min < 60) return `${min} min`;
+    const h = Math.floor(min / 60), m = min % 60;
+    if (h < 48) return m ? `${h} h ${m} min` : `${h} h`;
+    return `${Math.floor(h / 24)} dias`;
+  }
+
+  function relativo(d) {
+    const s = (Date.now() - new Date(d)) / 1000;
+    if (s < 90) return "agora há pouco";
+    if (s < 3600) return `há ${Math.round(s / 60)} min`;
+    return `há ${fmtDuracao(s)}`;
+  }
+
+  function ultimosDias() {
+    const dias = [];
+    const hoje = new Date();
+    for (let i = DIAS - 1; i >= 0; i--) {
+      const d = new Date(Date.UTC(hoje.getUTCFullYear(), hoje.getUTCMonth(), hoje.getUTCDate() - i));
+      dias.push(d.toISOString().slice(0, 10));
+    }
+    return dias;
+  }
+
+  function classeDia(dia) {
+    if (!dia || !dia.checks) return "";
+    if (dia.falhas === 0 && !dia.degradados) return "online";
+    if (dia.uptime_pct >= 97) return "degradado";
+    return "offline";
+  }
+
+  function uptime90(dias) {
+    let total = 0, ok = 0;
+    for (const d of dias || []) { total += d.checks; ok += d.checks - d.falhas; }
+    return total ? (100 * ok / total) : null;
+  }
+
+  function servico(s, diario) {
+    const porDia = Object.fromEntries((diario || []).map((d) => [d.dia, d]));
+    const barras = el("div", { class: "barras", role: "img", "aria-label": `Histórico de ${DIAS} dias de ${s.nome}` });
+    for (const dia of ultimosDias()) {
+      const d = porDia[dia];
+      const titulo = d
+        ? `${dia.split("-").reverse().join("/")}: ${d.uptime_pct.toFixed(2)}% (${d.falhas} falha(s)${d.degradados ? `, ${d.degradados} instável` : ""})`
+        : `${dia.split("-").reverse().join("/")}: sem dados`;
+      barras.append(el("i", { class: classeDia(d), title: titulo }));
+    }
+    const up = uptime90(diario);
+    const meta = [ROTULO[s.status] || s.status];
+    if (s.latencia_ms != null) meta.push(`${s.latencia_ms} ms`);
+    if (up != null) meta.push(`${up.toFixed(2)}%`);
+    return el("div", { class: "servico" },
+      el("div", { class: "linha" },
+        el("div", { class: "nome" }, el("span", { class: `ponto ${s.status}` }), el("b", {}, s.nome)),
+        el("div", { class: "meta" }, meta.join(" · "))),
+      barras,
+      el("div", { class: "eixo" },
+        el("span", { class: "ini90" }, `${DIAS} dias atrás`),
+        el("span", { class: "ini30", style: "display:none" }, "30 dias atrás"),
+        el("span", {}, "hoje")));
+  }
+
+  function renderIncidentes(lista) {
+    const alvo = document.getElementById("incidentes");
+    alvo.replaceChildren();
+    const recentes = [...lista].sort((a, b) => new Date(b.inicio) - new Date(a.inicio)).slice(0, 15);
+    if (!recentes.length) {
+      alvo.append(el("p", { class: "vazio" }, "Nenhum incidente registrado."));
+      return;
+    }
+    for (const i of recentes) {
+      const aberto = !i.fim;
+      const quando = aberto
+        ? `Desde ${fmtData(i.inicio)} · em andamento (${fmtDuracao((Date.now() - new Date(i.inicio)) / 1000)})`
+        : `${fmtData(i.inicio)} · durou ${fmtDuracao(i.duracao_s || 0)}`;
+      const titulo = el("b", {}, `${i.nome} — ${i.status === "degradado" ? "instabilidade" : "fora do ar"}`);
+      const cab = repoUrl && i.issue ? el("a", { href: `${repoUrl}/issues/${i.issue}` }, titulo) : titulo;
+      alvo.append(el("div", { class: `incidente${aberto ? " aberto" : ""}` }, cab, el("div", { class: "quando" }, quando)));
+    }
+  }
+
+  async function carregar() {
+    const busca = (arq) => fetch(`data/${arq}?t=${Date.now()}`).then((r) => r.ok ? r.json() : Promise.reject(r.status));
+    try {
+      const [atual, diario, incidentes] = await Promise.all([
+        busca("current.json"),
+        busca("daily.json").catch(() => ({})),
+        busca("incidents.json").catch(() => []),
+      ]);
+      const banner = document.getElementById("banner");
+      banner.className = `banner ${atual.geral}`;
+      banner.textContent = TEXTO_GERAL[atual.geral] || atual.geral;
+      document.getElementById("atualizado").textContent = `Atualizado ${relativo(atual.atualizado_em)}`;
+      document.getElementById("atualizado").title = fmtData(atual.atualizado_em);
+
+      const grupos = {};
+      for (const s of atual.servicos.filter((s) => s.status !== "ignorado")) {
+        (grupos[s.grupo] ||= []).push(s);
+      }
+      const nomes = Object.keys(grupos).sort((a, b) =>
+        (ORDEM_GRUPOS.indexOf(a) + 1 || 99) - (ORDEM_GRUPOS.indexOf(b) + 1 || 99));
+      const alvo = document.getElementById("grupos");
+      alvo.replaceChildren(...nomes.map((g) =>
+        el("section", { class: "grupo" }, el("h2", {}, g), ...grupos[g].map((s) => servico(s, diario[s.id])))));
+      renderIncidentes(incidentes);
+    } catch (e) {
+      const banner = document.getElementById("banner");
+      banner.className = "banner carregando";
+      banner.textContent = "Ainda não há dados. A primeira rodada do monitor vai gerá-los.";
+    }
+  }
+
+  if (repoUrl) {
+    document.getElementById("repo").append(" · ", el("a", { href: repoUrl }, "código"));
+  }
+  carregar();
+  setInterval(carregar, 5 * 60 * 1000);
+</script>
+</body>
+</html>

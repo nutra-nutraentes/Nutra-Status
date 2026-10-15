@@ -1,0 +1,26 @@
+[package]
+name = "nutra-status"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "Monitor de uptime da plataforma Nutra, executado pelo GitHub Actions"
+
+[dependencies]
+anyhow = "1"
+chrono = { version = "0.4", features = ["serde"] }
+dotenvy = "0.15"
+futures = "0.3"
+hickory-resolver = "0.24"
+jsonwebtoken = "9"
+lettre = { version = "0.11", default-features = false, features = ["builder", "hostname", "smtp-transport", "tokio1", "tokio1-native-tls"] }
+native-tls = "0.2"
+postgres-native-tls = "0.5"
+reqwest = { version = "0.12", features = ["json"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "time"] }
+tokio-postgres = "0.7"
+toml = "0.8"
+
+[profile.release]
+strip = true

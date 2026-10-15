@@ -1,0 +1,4 @@
+/target
+.env
+/tmp-data
+/site/data

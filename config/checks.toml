@@ -1,0 +1,176 @@
+# Checagens do Nutra Status.
+#
+# Este arquivo é PÚBLICO: nada de IPs, hosts internos ou tokens aqui.
+# Use ${VARIAVEL} para valores que vêm dos secrets do repositório.
+# Se a variável não estiver definida, a checagem fica como "ignorado" (não alerta).
+#
+# Campos comuns: id (único, vira nome de arquivo), nome, grupo, tipo, ativo (padrão true)
+# Tipos:
+#   http        url, fallback_url?, status_ok_ate (padrão 399), esperar_json?, headers?
+#   dns         host, url? (faz GET após resolver o registro A), status_ok_ate (padrão 499)
+#   statuspage  url (Atlassian Statuspage: none → online, minor/major → degradado, critical → offline)
+#   postgres    usa DB_HOST, DB_PORT, DB_NAME, DB_USERNAME, DB_PASSWORD, DB_SSL, DB_SSL_CA
+#   firebase    usa FIREBASE_SERVICE_ACCOUNT_JSON
+
+# ── Plataforma ───────────────────────────────────────────────
+
+[[check]]
+id = "api"
+nome = "API"
+grupo = "Plataforma"
+tipo = "http"
+url = "https://api.nutraentes.com.br/health"
+status_ok_ate = 299
+esperar_json = { status = "ok" }
+
+[[check]]
+id = "api-web"
+nome = "API Web"
+grupo = "Plataforma"
+tipo = "http"
+url = "https://api-web.nutraentes.com.br/health"
+status_ok_ate = 299
+esperar_json = { status = "ok", banco = true }
+
+[[check]]
+id = "engine"
+nome = "Engine"
+grupo = "Plataforma"
+tipo = "http"
+url = "${ENGINE_URL}/health"
+status_ok_ate = 299
+esperar_json = { status = "ok" }
+
+[[check]]
+id = "engine-proxy"
+nome = "Engine via API"
+grupo = "Plataforma"
+tipo = "http"
+url = "https://api.nutraentes.com.br/engine/health"
+status_ok_ate = 299
+
+[[check]]
+id = "arnut"
+nome = "Arnut"
+grupo = "Plataforma"
+tipo = "http"
+url = "${ARNUT_URL}/info"
+status_ok_ate = 299
+esperar_json = { status = "operacional" }
+
+[[check]]
+id = "n8n"
+nome = "n8n"
+grupo = "Plataforma"
+tipo = "http"
+url = "${N8N_URL}/healthz"
+status_ok_ate = 299
+
+[[check]]
+id = "easypanel"
+nome = "EasyPanel"
+grupo = "Plataforma"
+tipo = "http"
+url = "${EASYPANEL_URL}"
+status_ok_ate = 499
+
+# ── Domínios (registro A + HTTP) ─────────────────────────────
+
+[[check]]
+id = "site"
+nome = "Site (nutraentes.com.br)"
+grupo = "Domínios"
+tipo = "dns"
+host = "nutraentes.com.br"
+url = "https://nutraentes.com.br"
+status_ok_ate = 399
+
+[[check]]
+id = "workspace"
+nome = "Workspace"
+grupo = "Domínios"
+tipo = "dns"
+host = "workspace.nutraentes.com.br"
+url = "https://workspace.nutraentes.com.br"
+
+[[check]]
+id = "admin"
+nome = "Admin"
+grupo = "Domínios"
+tipo = "dns"
+host = "admin.nutraentes.com.br"
+url = "https://admin.nutraentes.com.br"
+
+[[check]]
+id = "kids"
+nome = "Kids"
+grupo = "Domínios"
+tipo = "dns"
+host = "kids.nutraentes.com.br"
+url = "https://kids.nutraentes.com.br"
+
+# Desligado: em 15/10/2026 app.nutraentes.com.br não tinha registro A.
+# Ative quando o subdomínio for criado.
+[[check]]
+id = "app"
+nome = "App (deep links)"
+grupo = "Domínios"
+tipo = "dns"
+ativo = false
+host = "app.nutraentes.com.br"
+url = "https://app.nutraentes.com.br"
+
+[[check]]
+id = "dns-api"
+nome = "DNS api"
+grupo = "Domínios"
+tipo = "dns"
+host = "api.nutraentes.com.br"
+
+[[check]]
+id = "dns-api-web"
+nome = "DNS api-web"
+grupo = "Domínios"
+tipo = "dns"
+host = "api-web.nutraentes.com.br"
+
+# ── Bancos de dados ──────────────────────────────────────────
+
+[[check]]
+id = "postgres"
+nome = "Postgres"
+grupo = "Bancos de dados"
+tipo = "postgres"
+
+[[check]]
+id = "firebase"
+nome = "Firebase Auth"
+grupo = "Bancos de dados"
+tipo = "firebase"
+
+[[check]]
+id = "qdrant"
+nome = "Qdrant"
+grupo = "Bancos de dados"
+tipo = "http"
+url = "${QDRANT_URL}/readyz"
+fallback_url = "${QDRANT_URL}/collections"
+status_ok_ate = 299
+
+# ── Infra externa ────────────────────────────────────────────
+
+[[check]]
+id = "cloudflare"
+nome = "Cloudflare (status global)"
+grupo = "Infra externa"
+tipo = "statuspage"
+url = "https://www.cloudflarestatus.com/api/v2/status.json"
+
+[[check]]
+id = "cloudflare-conta"
+nome = "Cloudflare (conta)"
+grupo = "Infra externa"
+tipo = "http"
+url = "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}"
+status_ok_ate = 299
+headers = { Authorization = "Bearer ${CLOUDFLARE_API_TOKEN}" }

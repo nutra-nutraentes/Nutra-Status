@@ -1,0 +1,101 @@
+name: Status
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+
+# Nunca duas rodadas ao mesmo tempo (ambas fariam push na branch status-data).
+concurrency:
+  group: status
+  cancel-in-progress: false
+
+jobs:
+  checar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Preparar branch status-data
+        run: |
+          if git ls-remote --exit-code --heads origin status-data > /dev/null; then
+            git fetch --depth=1 origin status-data:status-data
+            git worktree add state status-data
+          else
+            echo "Branch status-data não existe: criando órfã"
+            git worktree add --orphan -b status-data state
+          fi
+
+      - uses: dtolnay/rust-toolchain@stable
+
+      - uses: Swatinem/rust-cache@v2
+
+      - name: Rodar checagens
+        run: cargo run --release --locked -- --data-dir state/data
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ALERT_EMAIL_TO: ${{ secrets.ALERT_EMAIL_TO }}
+          ALERT_GITHUB_USER: ${{ vars.ALERT_GITHUB_USER }}
+          STATUS_PAGE_URL: ${{ vars.STATUS_PAGE_URL }}
+          ENGINE_URL: ${{ secrets.ENGINE_URL }}
+          ARNUT_URL: ${{ secrets.ARNUT_URL }}
+          N8N_URL: ${{ secrets.N8N_URL }}
+          EASYPANEL_URL: ${{ secrets.EASYPANEL_URL }}
+          QDRANT_URL: ${{ secrets.QDRANT_URL }}
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_USERNAME: ${{ secrets.DB_USERNAME }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_SSL: ${{ secrets.DB_SSL }}
+          DB_SSL_CA: ${{ secrets.DB_SSL_CA }}
+          FIREBASE_SERVICE_ACCOUNT_JSON: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_JSON }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          EMAIL_HOST: ${{ secrets.EMAIL_HOST }}
+          EMAIL_PORT: ${{ secrets.EMAIL_PORT }}
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_FROM_NAME: ${{ secrets.EMAIL_FROM_NAME }}
+          EMAIL_USE_SSL: ${{ secrets.EMAIL_USE_SSL }}
+
+      - name: Salvar histórico
+        working-directory: state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Nada a gravar"
+            exit 0
+          fi
+          git commit -q -m "chore(status): rodada $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push origin status-data
+
+      - name: Montar página
+        run: |
+          mkdir -p _site
+          cp -r site/. _site/
+          cp -r state/data _site/data
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  publicar:
+    needs: checar
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4
