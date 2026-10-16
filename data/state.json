@@ -1,36 +1,36 @@
 {
   "admin": {
-    "status": "online",
-    "desde": "2026-10-15T13:19:44.763452251Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-16T20:42:29.505014536Z",
+    "ultimo_aviso": "2026-10-16T20:42:29.505014536Z",
+    "issue": 11,
+    "incidente": "admin-1792183349"
   },
   "api": {
-    "status": "online",
-    "desde": "2026-10-15T13:19:44.763452251Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-16T20:42:29.505014536Z",
+    "ultimo_aviso": "2026-10-16T20:42:29.505014536Z",
+    "issue": 3,
+    "incidente": "api-1792183349"
   },
   "api-web": {
-    "status": "online",
-    "desde": "2026-10-15T13:19:44.763452251Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-16T20:42:29.505014536Z",
+    "ultimo_aviso": "2026-10-16T20:42:29.505014536Z",
+    "issue": 4,
+    "incidente": "api-web-1792183349"
   },
   "arnut": {
-    "status": "online",
-    "desde": "2026-10-15T13:30:27.648644115Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-16T20:42:29.505014536Z",
+    "ultimo_aviso": "2026-10-16T20:42:29.505014536Z",
+    "issue": 7,
+    "incidente": "arnut-1792183349"
   },
   "cloudflare": {
     "status": "degradado",
     "desde": "2026-10-15T13:19:44.763452251Z",
-    "ultimo_aviso": "2026-10-16T13:49:37.987209664Z",
+    "ultimo_aviso": "2026-10-16T20:42:29.505014536Z",
     "issue": 1,
     "incidente": "cloudflare-1792070384"
   },
@@ -56,25 +56,25 @@
     "incidente": null
   },
   "easypanel": {
-    "status": "online",
-    "desde": "2026-10-15T14:48:03.387685014Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-16T20:42:29.505014536Z",
+    "ultimo_aviso": "2026-10-16T20:42:29.505014536Z",
+    "issue": 9,
+    "incidente": "easypanel-1792183349"
   },
   "engine": {
-    "status": "online",
-    "desde": "2026-10-15T13:30:27.648644115Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-16T20:42:29.505014536Z",
+    "ultimo_aviso": "2026-10-16T20:42:29.505014536Z",
+    "issue": 5,
+    "incidente": "engine-1792183349"
   },
   "engine-proxy": {
-    "status": "online",
-    "desde": "2026-10-15T13:19:44.763452251Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-16T20:42:29.505014536Z",
+    "ultimo_aviso": "2026-10-16T20:42:29.505014536Z",
+    "issue": 6,
+    "incidente": "engine-proxy-1792183349"
   },
   "firebase": {
     "status": "online",
@@ -91,25 +91,25 @@
     "incidente": null
   },
   "n8n": {
-    "status": "online",
-    "desde": "2026-10-15T14:48:03.387685014Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-16T20:42:29.505014536Z",
+    "ultimo_aviso": "2026-10-16T20:42:29.505014536Z",
+    "issue": 8,
+    "incidente": "n8n-1792183349"
   },
   "postgres": {
-    "status": "online",
-    "desde": "2026-10-15T13:30:27.648644115Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-16T20:42:29.505014536Z",
+    "ultimo_aviso": "2026-10-16T20:42:29.505014536Z",
+    "issue": 12,
+    "incidente": "postgres-1792183349"
   },
   "qdrant": {
-    "status": "online",
-    "desde": "2026-10-15T13:30:27.648644115Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-16T20:42:29.505014536Z",
+    "ultimo_aviso": "2026-10-16T20:42:29.505014536Z",
+    "issue": 13,
+    "incidente": "qdrant-1792183349"
   },
   "site": {
     "status": "online",
@@ -119,10 +119,10 @@
     "incidente": null
   },
   "workspace": {
-    "status": "online",
-    "desde": "2026-10-15T13:19:44.763452251Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-16T20:42:29.505014536Z",
+    "ultimo_aviso": "2026-10-16T20:42:29.505014536Z",
+    "issue": 10,
+    "incidente": "workspace-1792183349"
   }
 }
