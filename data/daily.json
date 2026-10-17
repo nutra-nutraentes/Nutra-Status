@@ -16,10 +16,10 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 1,
       "degradados": 0,
-      "uptime_pct": 66.67
+      "uptime_pct": 75.0
     }
   ],
   "api": [
@@ -39,10 +39,10 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 1,
       "degradados": 0,
-      "uptime_pct": 66.67
+      "uptime_pct": 75.0
     }
   ],
   "api-web": [
@@ -62,10 +62,10 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 1,
       "degradados": 0,
-      "uptime_pct": 66.67
+      "uptime_pct": 75.0
     }
   ],
   "arnut": [
@@ -85,10 +85,10 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 1,
       "degradados": 0,
-      "uptime_pct": 66.67
+      "uptime_pct": 75.0
     }
   ],
   "cloudflare": [
@@ -108,9 +108,9 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 0,
-      "degradados": 3,
+      "degradados": 4,
       "uptime_pct": 100.0
     }
   ],
@@ -131,7 +131,7 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -154,7 +154,7 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -177,7 +177,7 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -200,10 +200,10 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 1,
       "degradados": 0,
-      "uptime_pct": 66.67
+      "uptime_pct": 75.0
     }
   ],
   "engine": [
@@ -223,10 +223,10 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 1,
       "degradados": 0,
-      "uptime_pct": 66.67
+      "uptime_pct": 75.0
     }
   ],
   "engine-proxy": [
@@ -246,10 +246,10 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 1,
       "degradados": 0,
-      "uptime_pct": 66.67
+      "uptime_pct": 75.0
     }
   ],
   "firebase": [
@@ -269,7 +269,7 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -292,7 +292,7 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -315,10 +315,10 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 1,
       "degradados": 0,
-      "uptime_pct": 66.67
+      "uptime_pct": 75.0
     }
   ],
   "postgres": [
@@ -338,10 +338,10 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 1,
       "degradados": 0,
-      "uptime_pct": 66.67
+      "uptime_pct": 75.0
     }
   ],
   "qdrant": [
@@ -361,10 +361,10 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 1,
       "degradados": 0,
-      "uptime_pct": 66.67
+      "uptime_pct": 75.0
     }
   ],
   "site": [
@@ -384,7 +384,7 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -407,10 +407,10 @@
     },
     {
       "dia": "2026-10-17",
-      "checks": 3,
+      "checks": 4,
       "falhas": 1,
       "degradados": 0,
-      "uptime_pct": 66.67
+      "uptime_pct": 75.0
     }
   ]
 }
