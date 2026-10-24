@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-10-23T23:56:41.574011727Z",
+  "atualizado_em": "2026-10-24T04:13:26.378131526Z",
   "geral": "degradado",
   "servicos": [
     {
@@ -7,7 +7,7 @@
       "nome": "API",
       "grupo": "Plataforma",
       "status": "online",
-      "latencia_ms": 1546,
+      "latencia_ms": 899,
       "desde": "2026-10-21T21:54:31.610769386Z"
     },
     {
@@ -15,7 +15,7 @@
       "nome": "API Web",
       "grupo": "Plataforma",
       "status": "online",
-      "latencia_ms": 770,
+      "latencia_ms": 887,
       "desde": "2026-10-21T21:54:31.610769386Z"
     },
     {
@@ -23,7 +23,7 @@
       "nome": "Engine",
       "grupo": "Plataforma",
       "status": "online",
-      "latencia_ms": 291,
+      "latencia_ms": 370,
       "desde": "2026-10-21T21:54:31.610769386Z"
     },
     {
@@ -31,7 +31,7 @@
       "nome": "Engine via API",
       "grupo": "Plataforma",
       "status": "online",
-      "latencia_ms": 1556,
+      "latencia_ms": 906,
       "desde": "2026-10-21T21:54:31.610769386Z"
     },
     {
@@ -39,7 +39,7 @@
       "nome": "Arnut",
       "grupo": "Plataforma",
       "status": "online",
-      "latencia_ms": 299,
+      "latencia_ms": 370,
       "desde": "2026-10-21T21:54:31.610769386Z"
     },
     {
@@ -47,7 +47,7 @@
       "nome": "n8n",
       "grupo": "Plataforma",
       "status": "online",
-      "latencia_ms": 290,
+      "latencia_ms": 372,
       "desde": "2026-10-21T21:54:31.610769386Z"
     },
     {
@@ -55,7 +55,7 @@
       "nome": "EasyPanel",
       "grupo": "Plataforma",
       "status": "online",
-      "latencia_ms": 294,
+      "latencia_ms": 370,
       "desde": "2026-10-21T21:54:31.610769386Z"
     },
     {
@@ -63,7 +63,7 @@
       "nome": "Site (nutraentes.com.br)",
       "grupo": "Domínios",
       "status": "online",
-      "latencia_ms": 1094,
+      "latencia_ms": 1147,
       "desde": "2026-10-15T13:19:44.763452251Z"
     },
     {
@@ -71,7 +71,7 @@
       "nome": "Workspace",
       "grupo": "Domínios",
       "status": "online",
-      "latencia_ms": 1225,
+      "latencia_ms": 1401,
       "desde": "2026-10-21T21:54:31.610769386Z"
     },
     {
@@ -79,7 +79,7 @@
       "nome": "Admin",
       "grupo": "Domínios",
       "status": "online",
-      "latencia_ms": 2264,
+      "latencia_ms": 2614,
       "desde": "2026-10-21T21:54:31.610769386Z"
     },
     {
@@ -87,7 +87,7 @@
       "nome": "Kids",
       "grupo": "Domínios",
       "status": "online",
-      "latencia_ms": 1129,
+      "latencia_ms": 1206,
       "desde": "2026-10-15T13:19:44.763452251Z"
     },
     {
@@ -95,7 +95,7 @@
       "nome": "DNS api",
       "grupo": "Domínios",
       "status": "online",
-      "latencia_ms": 467,
+      "latencia_ms": 382,
       "desde": "2026-10-15T13:19:44.763452251Z"
     },
     {
@@ -103,7 +103,7 @@
       "nome": "DNS api-web",
       "grupo": "Domínios",
       "status": "online",
-      "latencia_ms": 464,
+      "latencia_ms": 541,
       "desde": "2026-10-15T13:19:44.763452251Z"
     },
     {
@@ -111,7 +111,7 @@
       "nome": "Postgres",
       "grupo": "Bancos de dados",
       "status": "online",
-      "latencia_ms": 790,
+      "latencia_ms": 958,
       "desde": "2026-10-21T21:54:31.610769386Z"
     },
     {
@@ -119,7 +119,7 @@
       "nome": "Firebase Auth",
       "grupo": "Bancos de dados",
       "status": "online",
-      "latencia_ms": 243,
+      "latencia_ms": 229,
       "desde": "2026-10-15T13:30:27.648644115Z"
     },
     {
@@ -127,7 +127,7 @@
       "nome": "Qdrant",
       "grupo": "Bancos de dados",
       "status": "online",
-      "latencia_ms": 313,
+      "latencia_ms": 384,
       "desde": "2026-10-21T21:54:31.610769386Z"
     },
     {
@@ -135,7 +135,7 @@
       "nome": "Cloudflare (status global)",
       "grupo": "Infra externa",
       "status": "degradado",
-      "latencia_ms": 59,
+      "latencia_ms": 71,
       "desde": "2026-10-15T13:19:44.763452251Z"
     },
     {
@@ -143,7 +143,7 @@
       "nome": "Cloudflare (conta)",
       "grupo": "Infra externa",
       "status": "online",
-      "latencia_ms": 147,
+      "latencia_ms": 127,
       "desde": "2026-10-15T14:48:03.387685014Z"
     }
   ]
