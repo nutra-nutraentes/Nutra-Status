@@ -1,31 +1,31 @@
 {
   "admin": {
-    "status": "offline",
-    "desde": "2026-10-24T16:54:21.035119929Z",
-    "ultimo_aviso": "2026-10-24T16:54:21.035119929Z",
-    "issue": 55,
-    "incidente": "admin-1792860861"
+    "status": "online",
+    "desde": "2026-10-24T19:19:13.468880770Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "api": {
-    "status": "offline",
-    "desde": "2026-10-24T16:54:21.035119929Z",
-    "ultimo_aviso": "2026-10-24T16:54:21.035119929Z",
-    "issue": 47,
-    "incidente": "api-1792860861"
+    "status": "online",
+    "desde": "2026-10-24T19:19:13.468880770Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "api-web": {
-    "status": "offline",
-    "desde": "2026-10-24T16:54:21.035119929Z",
-    "ultimo_aviso": "2026-10-24T16:54:21.035119929Z",
-    "issue": 48,
-    "incidente": "api-web-1792860861"
+    "status": "online",
+    "desde": "2026-10-24T19:19:13.468880770Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "arnut": {
-    "status": "offline",
-    "desde": "2026-10-24T16:54:21.035119929Z",
-    "ultimo_aviso": "2026-10-24T16:54:21.035119929Z",
-    "issue": 51,
-    "incidente": "arnut-1792860861"
+    "status": "online",
+    "desde": "2026-10-24T19:19:13.468880770Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "cloudflare": {
     "status": "degradado",
@@ -56,25 +56,25 @@
     "incidente": null
   },
   "easypanel": {
-    "status": "offline",
-    "desde": "2026-10-24T16:54:21.035119929Z",
-    "ultimo_aviso": "2026-10-24T16:54:21.035119929Z",
-    "issue": 53,
-    "incidente": "easypanel-1792860861"
+    "status": "online",
+    "desde": "2026-10-24T19:19:13.468880770Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "engine": {
-    "status": "offline",
-    "desde": "2026-10-24T16:54:21.035119929Z",
-    "ultimo_aviso": "2026-10-24T16:54:21.035119929Z",
-    "issue": 49,
-    "incidente": "engine-1792860861"
+    "status": "online",
+    "desde": "2026-10-24T19:19:13.468880770Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "engine-proxy": {
-    "status": "offline",
-    "desde": "2026-10-24T16:54:21.035119929Z",
-    "ultimo_aviso": "2026-10-24T16:54:21.035119929Z",
-    "issue": 50,
-    "incidente": "engine-proxy-1792860861"
+    "status": "online",
+    "desde": "2026-10-24T19:19:13.468880770Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "firebase": {
     "status": "online",
@@ -91,25 +91,25 @@
     "incidente": null
   },
   "n8n": {
-    "status": "offline",
-    "desde": "2026-10-24T16:54:21.035119929Z",
-    "ultimo_aviso": "2026-10-24T16:54:21.035119929Z",
-    "issue": 52,
-    "incidente": "n8n-1792860861"
+    "status": "online",
+    "desde": "2026-10-24T19:19:13.468880770Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "postgres": {
-    "status": "offline",
-    "desde": "2026-10-24T16:54:21.035119929Z",
-    "ultimo_aviso": "2026-10-24T16:54:21.035119929Z",
-    "issue": 56,
-    "incidente": "postgres-1792860861"
+    "status": "online",
+    "desde": "2026-10-24T19:19:13.468880770Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "qdrant": {
-    "status": "offline",
-    "desde": "2026-10-24T16:54:21.035119929Z",
-    "ultimo_aviso": "2026-10-24T16:54:21.035119929Z",
-    "issue": 57,
-    "incidente": "qdrant-1792860861"
+    "status": "online",
+    "desde": "2026-10-24T19:19:13.468880770Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "site": {
     "status": "online",
@@ -119,10 +119,10 @@
     "incidente": null
   },
   "workspace": {
-    "status": "offline",
-    "desde": "2026-10-24T16:54:21.035119929Z",
-    "ultimo_aviso": "2026-10-24T16:54:21.035119929Z",
-    "issue": 54,
-    "incidente": "workspace-1792860861"
+    "status": "online",
+    "desde": "2026-10-24T19:19:13.468880770Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   }
 }
