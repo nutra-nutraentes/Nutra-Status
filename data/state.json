@@ -1,31 +1,31 @@
 {
   "admin": {
-    "status": "online",
-    "desde": "2026-10-21T21:54:31.610769386Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-24T13:30:15.800039236Z",
+    "ultimo_aviso": "2026-10-24T13:30:15.800039236Z",
+    "issue": 44,
+    "incidente": "admin-1792848615"
   },
   "api": {
-    "status": "online",
-    "desde": "2026-10-21T21:54:31.610769386Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-24T13:30:15.800039236Z",
+    "ultimo_aviso": "2026-10-24T13:30:15.800039236Z",
+    "issue": 36,
+    "incidente": "api-1792848615"
   },
   "api-web": {
-    "status": "online",
-    "desde": "2026-10-21T21:54:31.610769386Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-24T13:30:15.800039236Z",
+    "ultimo_aviso": "2026-10-24T13:30:15.800039236Z",
+    "issue": 37,
+    "incidente": "api-web-1792848615"
   },
   "arnut": {
-    "status": "online",
-    "desde": "2026-10-21T21:54:31.610769386Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-24T13:30:15.800039236Z",
+    "ultimo_aviso": "2026-10-24T13:30:15.800039236Z",
+    "issue": 40,
+    "incidente": "arnut-1792848615"
   },
   "cloudflare": {
     "status": "degradado",
@@ -56,25 +56,25 @@
     "incidente": null
   },
   "easypanel": {
-    "status": "online",
-    "desde": "2026-10-21T21:54:31.610769386Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-24T13:30:15.800039236Z",
+    "ultimo_aviso": "2026-10-24T13:30:15.800039236Z",
+    "issue": 42,
+    "incidente": "easypanel-1792848615"
   },
   "engine": {
-    "status": "online",
-    "desde": "2026-10-21T21:54:31.610769386Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-24T13:30:15.800039236Z",
+    "ultimo_aviso": "2026-10-24T13:30:15.800039236Z",
+    "issue": 38,
+    "incidente": "engine-1792848615"
   },
   "engine-proxy": {
-    "status": "online",
-    "desde": "2026-10-21T21:54:31.610769386Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-24T13:30:15.800039236Z",
+    "ultimo_aviso": "2026-10-24T13:30:15.800039236Z",
+    "issue": 39,
+    "incidente": "engine-proxy-1792848615"
   },
   "firebase": {
     "status": "online",
@@ -91,25 +91,25 @@
     "incidente": null
   },
   "n8n": {
-    "status": "online",
-    "desde": "2026-10-21T21:54:31.610769386Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-24T13:30:15.800039236Z",
+    "ultimo_aviso": "2026-10-24T13:30:15.800039236Z",
+    "issue": 41,
+    "incidente": "n8n-1792848615"
   },
   "postgres": {
-    "status": "online",
-    "desde": "2026-10-21T21:54:31.610769386Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-24T13:30:15.800039236Z",
+    "ultimo_aviso": "2026-10-24T13:30:15.800039236Z",
+    "issue": 45,
+    "incidente": "postgres-1792848615"
   },
   "qdrant": {
-    "status": "online",
-    "desde": "2026-10-21T21:54:31.610769386Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-24T13:30:15.800039236Z",
+    "ultimo_aviso": "2026-10-24T13:30:15.800039236Z",
+    "issue": 46,
+    "incidente": "qdrant-1792848615"
   },
   "site": {
     "status": "online",
@@ -119,10 +119,10 @@
     "incidente": null
   },
   "workspace": {
-    "status": "online",
-    "desde": "2026-10-21T21:54:31.610769386Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-24T13:30:15.800039236Z",
+    "ultimo_aviso": "2026-10-24T13:30:15.800039236Z",
+    "issue": 43,
+    "incidente": "workspace-1792848615"
   }
 }

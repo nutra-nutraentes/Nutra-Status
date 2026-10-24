@@ -1,93 +1,93 @@
 {
-  "atualizado_em": "2026-10-24T09:02:01.683107151Z",
-  "geral": "degradado",
+  "atualizado_em": "2026-10-24T13:30:15.800039236Z",
+  "geral": "offline",
   "servicos": [
     {
       "id": "api",
       "nome": "API",
       "grupo": "Plataforma",
-      "status": "online",
-      "latencia_ms": 1532,
-      "desde": "2026-10-21T21:54:31.610769386Z"
+      "status": "offline",
+      "latencia_ms": 10001,
+      "desde": "2026-10-24T13:30:15.800039236Z"
     },
     {
       "id": "api-web",
       "nome": "API Web",
       "grupo": "Plataforma",
-      "status": "online",
-      "latencia_ms": 819,
-      "desde": "2026-10-21T21:54:31.610769386Z"
+      "status": "offline",
+      "latencia_ms": 10001,
+      "desde": "2026-10-24T13:30:15.800039236Z"
     },
     {
       "id": "engine",
       "nome": "Engine",
       "grupo": "Plataforma",
-      "status": "online",
-      "latencia_ms": 303,
-      "desde": "2026-10-21T21:54:31.610769386Z"
+      "status": "offline",
+      "latencia_ms": 10000,
+      "desde": "2026-10-24T13:30:15.800039236Z"
     },
     {
       "id": "engine-proxy",
       "nome": "Engine via API",
       "grupo": "Plataforma",
-      "status": "online",
-      "latencia_ms": 1536,
-      "desde": "2026-10-21T21:54:31.610769386Z"
+      "status": "offline",
+      "latencia_ms": 10000,
+      "desde": "2026-10-24T13:30:15.800039236Z"
     },
     {
       "id": "arnut",
       "nome": "Arnut",
       "grupo": "Plataforma",
-      "status": "online",
-      "latencia_ms": 308,
-      "desde": "2026-10-21T21:54:31.610769386Z"
+      "status": "offline",
+      "latencia_ms": 10000,
+      "desde": "2026-10-24T13:30:15.800039236Z"
     },
     {
       "id": "n8n",
       "nome": "n8n",
       "grupo": "Plataforma",
-      "status": "online",
-      "latencia_ms": 310,
-      "desde": "2026-10-21T21:54:31.610769386Z"
+      "status": "offline",
+      "latencia_ms": 10000,
+      "desde": "2026-10-24T13:30:15.800039236Z"
     },
     {
       "id": "easypanel",
       "nome": "EasyPanel",
       "grupo": "Plataforma",
-      "status": "online",
-      "latencia_ms": 310,
-      "desde": "2026-10-21T21:54:31.610769386Z"
+      "status": "offline",
+      "latencia_ms": 10000,
+      "desde": "2026-10-24T13:30:15.800039236Z"
     },
     {
       "id": "site",
       "nome": "Site (nutraentes.com.br)",
       "grupo": "Domínios",
       "status": "online",
-      "latencia_ms": 938,
+      "latencia_ms": 862,
       "desde": "2026-10-15T13:19:44.763452251Z"
     },
     {
       "id": "workspace",
       "nome": "Workspace",
       "grupo": "Domínios",
-      "status": "online",
-      "latencia_ms": 1138,
-      "desde": "2026-10-21T21:54:31.610769386Z"
+      "status": "offline",
+      "latencia_ms": 10000,
+      "desde": "2026-10-24T13:30:15.800039236Z"
     },
     {
       "id": "admin",
       "nome": "Admin",
       "grupo": "Domínios",
-      "status": "online",
-      "latencia_ms": 2126,
-      "desde": "2026-10-21T21:54:31.610769386Z"
+      "status": "offline",
+      "latencia_ms": 10000,
+      "desde": "2026-10-24T13:30:15.800039236Z"
     },
     {
       "id": "kids",
       "nome": "Kids",
       "grupo": "Domínios",
       "status": "online",
-      "latencia_ms": 1068,
+      "latencia_ms": 907,
       "desde": "2026-10-15T13:19:44.763452251Z"
     },
     {
@@ -95,7 +95,7 @@
       "nome": "DNS api",
       "grupo": "Domínios",
       "status": "online",
-      "latencia_ms": 361,
+      "latencia_ms": 378,
       "desde": "2026-10-15T13:19:44.763452251Z"
     },
     {
@@ -103,39 +103,39 @@
       "nome": "DNS api-web",
       "grupo": "Domínios",
       "status": "online",
-      "latencia_ms": 451,
+      "latencia_ms": 322,
       "desde": "2026-10-15T13:19:44.763452251Z"
     },
     {
       "id": "postgres",
       "nome": "Postgres",
       "grupo": "Bancos de dados",
-      "status": "online",
-      "latencia_ms": 811,
-      "desde": "2026-10-21T21:54:31.610769386Z"
+      "status": "offline",
+      "latencia_ms": 8039,
+      "desde": "2026-10-24T13:30:15.800039236Z"
     },
     {
       "id": "firebase",
       "nome": "Firebase Auth",
       "grupo": "Bancos de dados",
       "status": "online",
-      "latencia_ms": 246,
+      "latencia_ms": 194,
       "desde": "2026-10-15T13:30:27.648644115Z"
     },
     {
       "id": "qdrant",
       "nome": "Qdrant",
       "grupo": "Bancos de dados",
-      "status": "online",
-      "latencia_ms": 333,
-      "desde": "2026-10-21T21:54:31.610769386Z"
+      "status": "offline",
+      "latencia_ms": 20002,
+      "desde": "2026-10-24T13:30:15.800039236Z"
     },
     {
       "id": "cloudflare",
       "nome": "Cloudflare (status global)",
       "grupo": "Infra externa",
       "status": "degradado",
-      "latencia_ms": 50,
+      "latencia_ms": 15,
       "desde": "2026-10-15T13:19:44.763452251Z"
     },
     {
@@ -143,7 +143,7 @@
       "nome": "Cloudflare (conta)",
       "grupo": "Infra externa",
       "status": "online",
-      "latencia_ms": 129,
+      "latencia_ms": 150,
       "desde": "2026-10-15T14:48:03.387685014Z"
     }
   ]

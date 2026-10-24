@@ -348,5 +348,115 @@
     "fim": "2026-10-21T21:54:31.610769386Z",
     "duracao_s": 13380,
     "issue": 35
+  },
+  {
+    "id": "api-1792848615",
+    "servico": "api",
+    "nome": "API",
+    "status": "offline",
+    "inicio": "2026-10-24T13:30:15.800039236Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 36
+  },
+  {
+    "id": "api-web-1792848615",
+    "servico": "api-web",
+    "nome": "API Web",
+    "status": "offline",
+    "inicio": "2026-10-24T13:30:15.800039236Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 37
+  },
+  {
+    "id": "engine-1792848615",
+    "servico": "engine",
+    "nome": "Engine",
+    "status": "offline",
+    "inicio": "2026-10-24T13:30:15.800039236Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 38
+  },
+  {
+    "id": "engine-proxy-1792848615",
+    "servico": "engine-proxy",
+    "nome": "Engine via API",
+    "status": "offline",
+    "inicio": "2026-10-24T13:30:15.800039236Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 39
+  },
+  {
+    "id": "arnut-1792848615",
+    "servico": "arnut",
+    "nome": "Arnut",
+    "status": "offline",
+    "inicio": "2026-10-24T13:30:15.800039236Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 40
+  },
+  {
+    "id": "n8n-1792848615",
+    "servico": "n8n",
+    "nome": "n8n",
+    "status": "offline",
+    "inicio": "2026-10-24T13:30:15.800039236Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 41
+  },
+  {
+    "id": "easypanel-1792848615",
+    "servico": "easypanel",
+    "nome": "EasyPanel",
+    "status": "offline",
+    "inicio": "2026-10-24T13:30:15.800039236Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 42
+  },
+  {
+    "id": "workspace-1792848615",
+    "servico": "workspace",
+    "nome": "Workspace",
+    "status": "offline",
+    "inicio": "2026-10-24T13:30:15.800039236Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 43
+  },
+  {
+    "id": "admin-1792848615",
+    "servico": "admin",
+    "nome": "Admin",
+    "status": "offline",
+    "inicio": "2026-10-24T13:30:15.800039236Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 44
+  },
+  {
+    "id": "postgres-1792848615",
+    "servico": "postgres",
+    "nome": "Postgres",
+    "status": "offline",
+    "inicio": "2026-10-24T13:30:15.800039236Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 45
+  },
+  {
+    "id": "qdrant-1792848615",
+    "servico": "qdrant",
+    "nome": "Qdrant",
+    "status": "offline",
+    "inicio": "2026-10-24T13:30:15.800039236Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 46
   }
 ]
