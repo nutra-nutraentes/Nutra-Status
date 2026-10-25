@@ -645,8 +645,38 @@
     "nome": "Qdrant",
     "status": "offline",
     "inicio": "2026-10-25T07:24:29.440299148Z",
+    "fim": "2026-10-25T10:02:50.817073437Z",
+    "duracao_s": 9501,
+    "issue": 65
+  },
+  {
+    "id": "engine-1792922570",
+    "servico": "engine",
+    "nome": "Engine",
+    "status": "offline",
+    "inicio": "2026-10-25T10:02:50.817073437Z",
     "fim": null,
     "duracao_s": null,
-    "issue": 65
+    "issue": 66
+  },
+  {
+    "id": "arnut-1792922570",
+    "servico": "arnut",
+    "nome": "Arnut",
+    "status": "offline",
+    "inicio": "2026-10-25T10:02:50.817073437Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 67
+  },
+  {
+    "id": "postgres-1792922570",
+    "servico": "postgres",
+    "nome": "Postgres",
+    "status": "offline",
+    "inicio": "2026-10-25T10:02:50.817073437Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 68
   }
 ]

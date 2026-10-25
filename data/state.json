@@ -21,11 +21,11 @@
     "incidente": "api-web-1792913069"
   },
   "arnut": {
-    "status": "online",
-    "desde": "2026-10-24T19:19:13.468880770Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-25T10:02:50.817073437Z",
+    "ultimo_aviso": "2026-10-25T10:02:50.817073437Z",
+    "issue": 67,
+    "incidente": "arnut-1792922570"
   },
   "cloudflare": {
     "status": "degradado",
@@ -63,11 +63,11 @@
     "incidente": "easypanel-1792913069"
   },
   "engine": {
-    "status": "online",
-    "desde": "2026-10-24T19:19:13.468880770Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-25T10:02:50.817073437Z",
+    "ultimo_aviso": "2026-10-25T10:02:50.817073437Z",
+    "issue": 66,
+    "incidente": "engine-1792922570"
   },
   "engine-proxy": {
     "status": "offline",
@@ -98,18 +98,18 @@
     "incidente": "n8n-1792913069"
   },
   "postgres": {
+    "status": "offline",
+    "desde": "2026-10-25T10:02:50.817073437Z",
+    "ultimo_aviso": "2026-10-25T10:02:50.817073437Z",
+    "issue": 68,
+    "incidente": "postgres-1792922570"
+  },
+  "qdrant": {
     "status": "online",
-    "desde": "2026-10-24T19:19:13.468880770Z",
+    "desde": "2026-10-25T10:02:50.817073437Z",
     "ultimo_aviso": null,
     "issue": null,
     "incidente": null
-  },
-  "qdrant": {
-    "status": "offline",
-    "desde": "2026-10-25T07:24:29.440299148Z",
-    "ultimo_aviso": "2026-10-25T07:24:29.440299148Z",
-    "issue": 65,
-    "incidente": "qdrant-1792913069"
   },
   "site": {
     "status": "online",
