@@ -2,21 +2,21 @@
   "admin": {
     "status": "offline",
     "desde": "2026-10-25T07:24:29.440299148Z",
-    "ultimo_aviso": "2026-10-25T07:24:29.440299148Z",
+    "ultimo_aviso": "2026-10-25T14:30:58.569849332Z",
     "issue": 64,
     "incidente": "admin-1792913069"
   },
   "api": {
     "status": "offline",
     "desde": "2026-10-25T07:24:29.440299148Z",
-    "ultimo_aviso": "2026-10-25T07:24:29.440299148Z",
+    "ultimo_aviso": "2026-10-25T14:30:58.569849332Z",
     "issue": 58,
     "incidente": "api-1792913069"
   },
   "api-web": {
     "status": "offline",
     "desde": "2026-10-25T07:24:29.440299148Z",
-    "ultimo_aviso": "2026-10-25T07:24:29.440299148Z",
+    "ultimo_aviso": "2026-10-25T14:30:58.569849332Z",
     "issue": 59,
     "incidente": "api-web-1792913069"
   },
@@ -30,7 +30,7 @@
   "cloudflare": {
     "status": "degradado",
     "desde": "2026-10-15T13:19:44.763452251Z",
-    "ultimo_aviso": "2026-10-25T07:24:29.440299148Z",
+    "ultimo_aviso": "2026-10-25T14:30:58.569849332Z",
     "issue": 1,
     "incidente": "cloudflare-1792070384"
   },
@@ -58,7 +58,7 @@
   "easypanel": {
     "status": "offline",
     "desde": "2026-10-25T07:24:29.440299148Z",
-    "ultimo_aviso": "2026-10-25T07:24:29.440299148Z",
+    "ultimo_aviso": "2026-10-25T14:30:58.569849332Z",
     "issue": 62,
     "incidente": "easypanel-1792913069"
   },
@@ -72,7 +72,7 @@
   "engine-proxy": {
     "status": "offline",
     "desde": "2026-10-25T07:24:29.440299148Z",
-    "ultimo_aviso": "2026-10-25T07:24:29.440299148Z",
+    "ultimo_aviso": "2026-10-25T14:30:58.569849332Z",
     "issue": 60,
     "incidente": "engine-proxy-1792913069"
   },
@@ -93,7 +93,7 @@
   "n8n": {
     "status": "offline",
     "desde": "2026-10-25T07:24:29.440299148Z",
-    "ultimo_aviso": "2026-10-25T07:24:29.440299148Z",
+    "ultimo_aviso": "2026-10-25T14:30:58.569849332Z",
     "issue": 61,
     "incidente": "n8n-1792913069"
   },
@@ -105,11 +105,11 @@
     "incidente": "postgres-1792922570"
   },
   "qdrant": {
-    "status": "online",
-    "desde": "2026-10-25T10:02:50.817073437Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-25T14:30:58.569849332Z",
+    "ultimo_aviso": "2026-10-25T14:30:58.569849332Z",
+    "issue": 69,
+    "incidente": "qdrant-1792938658"
   },
   "site": {
     "status": "online",
@@ -121,7 +121,7 @@
   "workspace": {
     "status": "offline",
     "desde": "2026-10-25T07:24:29.440299148Z",
-    "ultimo_aviso": "2026-10-25T07:24:29.440299148Z",
+    "ultimo_aviso": "2026-10-25T14:30:58.569849332Z",
     "issue": 63,
     "incidente": "workspace-1792913069"
   }

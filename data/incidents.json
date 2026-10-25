@@ -678,5 +678,15 @@
     "fim": null,
     "duracao_s": null,
     "issue": 68
+  },
+  {
+    "id": "qdrant-1792938658",
+    "servico": "qdrant",
+    "nome": "Qdrant",
+    "status": "offline",
+    "inicio": "2026-10-25T14:30:58.569849332Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 69
   }
 ]
