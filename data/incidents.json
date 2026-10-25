@@ -568,5 +568,85 @@
     "fim": "2026-10-24T19:19:13.468880770Z",
     "duracao_s": 8692,
     "issue": 57
+  },
+  {
+    "id": "api-1792913069",
+    "servico": "api",
+    "nome": "API",
+    "status": "offline",
+    "inicio": "2026-10-25T07:24:29.440299148Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 58
+  },
+  {
+    "id": "api-web-1792913069",
+    "servico": "api-web",
+    "nome": "API Web",
+    "status": "offline",
+    "inicio": "2026-10-25T07:24:29.440299148Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 59
+  },
+  {
+    "id": "engine-proxy-1792913069",
+    "servico": "engine-proxy",
+    "nome": "Engine via API",
+    "status": "offline",
+    "inicio": "2026-10-25T07:24:29.440299148Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 60
+  },
+  {
+    "id": "n8n-1792913069",
+    "servico": "n8n",
+    "nome": "n8n",
+    "status": "offline",
+    "inicio": "2026-10-25T07:24:29.440299148Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 61
+  },
+  {
+    "id": "easypanel-1792913069",
+    "servico": "easypanel",
+    "nome": "EasyPanel",
+    "status": "offline",
+    "inicio": "2026-10-25T07:24:29.440299148Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 62
+  },
+  {
+    "id": "workspace-1792913069",
+    "servico": "workspace",
+    "nome": "Workspace",
+    "status": "offline",
+    "inicio": "2026-10-25T07:24:29.440299148Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 63
+  },
+  {
+    "id": "admin-1792913069",
+    "servico": "admin",
+    "nome": "Admin",
+    "status": "offline",
+    "inicio": "2026-10-25T07:24:29.440299148Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 64
+  },
+  {
+    "id": "qdrant-1792913069",
+    "servico": "qdrant",
+    "nome": "Qdrant",
+    "status": "offline",
+    "inicio": "2026-10-25T07:24:29.440299148Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 65
   }
 ]
