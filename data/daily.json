@@ -76,6 +76,13 @@
       "falhas": 3,
       "degradados": 0,
       "uptime_pct": 62.5
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
     }
   ],
   "api": [
@@ -155,6 +162,13 @@
       "falhas": 3,
       "degradados": 0,
       "uptime_pct": 62.5
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
     }
   ],
   "api-web": [
@@ -234,6 +248,13 @@
       "falhas": 6,
       "degradados": 0,
       "uptime_pct": 25.0
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 1,
+      "degradados": 0,
+      "uptime_pct": 0.0
     }
   ],
   "arnut": [
@@ -313,6 +334,13 @@
       "falhas": 2,
       "degradados": 0,
       "uptime_pct": 75.0
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
     }
   ],
   "cloudflare": [
@@ -392,6 +420,13 @@
       "falhas": 0,
       "degradados": 8,
       "uptime_pct": 100.0
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 1,
+      "uptime_pct": 100.0
     }
   ],
   "cloudflare-conta": [
@@ -468,6 +503,13 @@
     {
       "dia": "2026-10-25",
       "checks": 8,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -550,6 +592,13 @@
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
     }
   ],
   "dns-api-web": [
@@ -626,6 +675,13 @@
     {
       "dia": "2026-10-25",
       "checks": 8,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -708,6 +764,13 @@
       "falhas": 3,
       "degradados": 0,
       "uptime_pct": 62.5
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
     }
   ],
   "engine": [
@@ -787,6 +850,13 @@
       "falhas": 2,
       "degradados": 0,
       "uptime_pct": 75.0
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
     }
   ],
   "engine-proxy": [
@@ -866,6 +936,13 @@
       "falhas": 3,
       "degradados": 0,
       "uptime_pct": 62.5
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
     }
   ],
   "firebase": [
@@ -942,6 +1019,13 @@
     {
       "dia": "2026-10-25",
       "checks": 8,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -1024,6 +1108,13 @@
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
     }
   ],
   "n8n": [
@@ -1103,6 +1194,13 @@
       "falhas": 3,
       "degradados": 0,
       "uptime_pct": 62.5
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
     }
   ],
   "postgres": [
@@ -1182,6 +1280,13 @@
       "falhas": 2,
       "degradados": 0,
       "uptime_pct": 75.0
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
     }
   ],
   "qdrant": [
@@ -1261,6 +1366,13 @@
       "falhas": 2,
       "degradados": 0,
       "uptime_pct": 75.0
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
     }
   ],
   "site": [
@@ -1337,6 +1449,13 @@
     {
       "dia": "2026-10-25",
       "checks": 8,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -1419,6 +1538,13 @@
       "falhas": 3,
       "degradados": 0,
       "uptime_pct": 62.5
+    },
+    {
+      "dia": "2026-10-26",
+      "checks": 1,
+      "falhas": 0,
+      "degradados": 0,
+      "uptime_pct": 100.0
     }
   ]
 }
