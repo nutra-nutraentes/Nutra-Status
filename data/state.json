@@ -1,17 +1,17 @@
 {
   "admin": {
-    "status": "online",
-    "desde": "2026-10-25T18:15:01.353861332Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-27T05:21:34.913119729Z",
+    "ultimo_aviso": "2026-10-27T05:21:34.913119729Z",
+    "issue": 74,
+    "incidente": "admin-1793078494"
   },
   "api": {
-    "status": "online",
-    "desde": "2026-10-25T18:15:01.353861332Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-27T05:21:34.913119729Z",
+    "ultimo_aviso": "2026-10-27T05:21:34.913119729Z",
+    "issue": 70,
+    "incidente": "api-1793078494"
   },
   "api-web": {
     "status": "offline",
@@ -70,11 +70,11 @@
     "incidente": null
   },
   "engine-proxy": {
-    "status": "online",
-    "desde": "2026-10-25T18:15:01.353861332Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-27T05:21:34.913119729Z",
+    "ultimo_aviso": "2026-10-27T05:21:34.913119729Z",
+    "issue": 71,
+    "incidente": "engine-proxy-1793078494"
   },
   "firebase": {
     "status": "online",
@@ -91,11 +91,11 @@
     "incidente": null
   },
   "n8n": {
-    "status": "online",
-    "desde": "2026-10-25T18:15:01.353861332Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-27T05:21:34.913119729Z",
+    "ultimo_aviso": "2026-10-27T05:21:34.913119729Z",
+    "issue": 72,
+    "incidente": "n8n-1793078494"
   },
   "postgres": {
     "status": "online",
@@ -119,10 +119,10 @@
     "incidente": null
   },
   "workspace": {
-    "status": "online",
-    "desde": "2026-10-25T18:15:01.353861332Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-10-27T05:21:34.913119729Z",
+    "ultimo_aviso": "2026-10-27T05:21:34.913119729Z",
+    "issue": 73,
+    "incidente": "workspace-1793078494"
   }
 }

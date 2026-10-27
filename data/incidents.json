@@ -688,5 +688,55 @@
     "fim": "2026-10-25T18:15:01.353861332Z",
     "duracao_s": 13442,
     "issue": 69
+  },
+  {
+    "id": "api-1793078494",
+    "servico": "api",
+    "nome": "API",
+    "status": "offline",
+    "inicio": "2026-10-27T05:21:34.913119729Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 70
+  },
+  {
+    "id": "engine-proxy-1793078494",
+    "servico": "engine-proxy",
+    "nome": "Engine via API",
+    "status": "offline",
+    "inicio": "2026-10-27T05:21:34.913119729Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 71
+  },
+  {
+    "id": "n8n-1793078494",
+    "servico": "n8n",
+    "nome": "n8n",
+    "status": "offline",
+    "inicio": "2026-10-27T05:21:34.913119729Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 72
+  },
+  {
+    "id": "workspace-1793078494",
+    "servico": "workspace",
+    "nome": "Workspace",
+    "status": "offline",
+    "inicio": "2026-10-27T05:21:34.913119729Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 73
+  },
+  {
+    "id": "admin-1793078494",
+    "servico": "admin",
+    "nome": "Admin",
+    "status": "offline",
+    "inicio": "2026-10-27T05:21:34.913119729Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 74
   }
 ]
