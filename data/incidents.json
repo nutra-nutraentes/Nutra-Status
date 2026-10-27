@@ -695,8 +695,8 @@
     "nome": "API",
     "status": "offline",
     "inicio": "2026-10-27T05:21:34.913119729Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-27T05:25:25.152388111Z",
+    "duracao_s": 230,
     "issue": 70
   },
   {
@@ -705,8 +705,8 @@
     "nome": "Engine via API",
     "status": "offline",
     "inicio": "2026-10-27T05:21:34.913119729Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-27T05:25:25.152388111Z",
+    "duracao_s": 230,
     "issue": 71
   },
   {
@@ -715,8 +715,8 @@
     "nome": "n8n",
     "status": "offline",
     "inicio": "2026-10-27T05:21:34.913119729Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-27T05:25:25.152388111Z",
+    "duracao_s": 230,
     "issue": 72
   },
   {
@@ -725,8 +725,8 @@
     "nome": "Workspace",
     "status": "offline",
     "inicio": "2026-10-27T05:21:34.913119729Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-27T05:25:25.152388111Z",
+    "duracao_s": 230,
     "issue": 73
   },
   {
@@ -735,8 +735,8 @@
     "nome": "Admin",
     "status": "offline",
     "inicio": "2026-10-27T05:21:34.913119729Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-27T05:25:25.152388111Z",
+    "duracao_s": 230,
     "issue": 74
   }
 ]
