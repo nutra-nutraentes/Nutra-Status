@@ -838,5 +838,25 @@
     "fim": "2026-10-28T19:00:39.740544643Z",
     "duracao_s": 20212,
     "issue": 84
+  },
+  {
+    "id": "api-1793229937",
+    "servico": "api",
+    "nome": "API",
+    "status": "offline",
+    "inicio": "2026-10-28T23:25:37.823941310Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 85
+  },
+  {
+    "id": "engine-proxy-1793229937",
+    "servico": "engine-proxy",
+    "nome": "Engine via API",
+    "status": "offline",
+    "inicio": "2026-10-28T23:25:37.823941310Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 86
   }
 ]
