@@ -745,8 +745,8 @@
     "nome": "API",
     "status": "offline",
     "inicio": "2026-10-28T13:23:47.709133764Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-28T19:00:39.740544643Z",
+    "duracao_s": 20212,
     "issue": 75
   },
   {
@@ -755,8 +755,8 @@
     "nome": "Engine",
     "status": "offline",
     "inicio": "2026-10-28T13:23:47.709133764Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-28T19:00:39.740544643Z",
+    "duracao_s": 20212,
     "issue": 76
   },
   {
@@ -765,8 +765,8 @@
     "nome": "Engine via API",
     "status": "offline",
     "inicio": "2026-10-28T13:23:47.709133764Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-28T19:00:39.740544643Z",
+    "duracao_s": 20212,
     "issue": 77
   },
   {
@@ -775,8 +775,8 @@
     "nome": "Arnut",
     "status": "offline",
     "inicio": "2026-10-28T13:23:47.709133764Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-28T19:00:39.740544643Z",
+    "duracao_s": 20212,
     "issue": 78
   },
   {
@@ -785,8 +785,8 @@
     "nome": "n8n",
     "status": "offline",
     "inicio": "2026-10-28T13:23:47.709133764Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-28T19:00:39.740544643Z",
+    "duracao_s": 20212,
     "issue": 79
   },
   {
@@ -795,8 +795,8 @@
     "nome": "EasyPanel",
     "status": "offline",
     "inicio": "2026-10-28T13:23:47.709133764Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-28T19:00:39.740544643Z",
+    "duracao_s": 20212,
     "issue": 80
   },
   {
@@ -805,8 +805,8 @@
     "nome": "Workspace",
     "status": "offline",
     "inicio": "2026-10-28T13:23:47.709133764Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-28T19:00:39.740544643Z",
+    "duracao_s": 20212,
     "issue": 81
   },
   {
@@ -815,8 +815,8 @@
     "nome": "Admin",
     "status": "offline",
     "inicio": "2026-10-28T13:23:47.709133764Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-28T19:00:39.740544643Z",
+    "duracao_s": 20212,
     "issue": 82
   },
   {
@@ -825,8 +825,8 @@
     "nome": "Postgres",
     "status": "offline",
     "inicio": "2026-10-28T13:23:47.709133764Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-28T19:00:39.740544643Z",
+    "duracao_s": 20212,
     "issue": 83
   },
   {
@@ -835,8 +835,8 @@
     "nome": "Qdrant",
     "status": "offline",
     "inicio": "2026-10-28T13:23:47.709133764Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-28T19:00:39.740544643Z",
+    "duracao_s": 20212,
     "issue": 84
   }
 ]
