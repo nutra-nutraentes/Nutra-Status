@@ -16,7 +16,7 @@
   "api-web": {
     "status": "offline",
     "desde": "2026-10-25T07:24:29.440299148Z",
-    "ultimo_aviso": "2026-10-27T20:51:39.048298780Z",
+    "ultimo_aviso": "2026-10-28T06:06:06.994077077Z",
     "issue": 59,
     "incidente": "api-web-1792913069"
   },
@@ -30,7 +30,7 @@
   "cloudflare": {
     "status": "degradado",
     "desde": "2026-10-15T13:19:44.763452251Z",
-    "ultimo_aviso": "2026-10-27T20:51:39.048298780Z",
+    "ultimo_aviso": "2026-10-28T06:06:06.994077077Z",
     "issue": 1,
     "incidente": "cloudflare-1792070384"
   },
