@@ -845,8 +845,8 @@
     "nome": "API",
     "status": "offline",
     "inicio": "2026-10-28T23:25:37.823941310Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-29T02:42:39.152124935Z",
+    "duracao_s": 11821,
     "issue": 85
   },
   {
@@ -855,8 +855,8 @@
     "nome": "Engine via API",
     "status": "offline",
     "inicio": "2026-10-28T23:25:37.823941310Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-10-29T02:42:39.152124935Z",
+    "duracao_s": 11821,
     "issue": 86
   }
 ]

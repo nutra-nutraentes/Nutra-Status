@@ -7,11 +7,11 @@
     "incidente": null
   },
   "api": {
-    "status": "offline",
-    "desde": "2026-10-28T23:25:37.823941310Z",
-    "ultimo_aviso": "2026-10-28T23:25:37.823941310Z",
-    "issue": 85,
-    "incidente": "api-1793229937"
+    "status": "online",
+    "desde": "2026-10-29T02:42:39.152124935Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "api-web": {
     "status": "offline",
@@ -70,11 +70,11 @@
     "incidente": null
   },
   "engine-proxy": {
-    "status": "offline",
-    "desde": "2026-10-28T23:25:37.823941310Z",
-    "ultimo_aviso": "2026-10-28T23:25:37.823941310Z",
-    "issue": 86,
-    "incidente": "engine-proxy-1793229937"
+    "status": "online",
+    "desde": "2026-10-29T02:42:39.152124935Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "firebase": {
     "status": "online",
