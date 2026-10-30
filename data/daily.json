@@ -107,7 +107,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -221,7 +221,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -335,8 +335,8 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
-      "falhas": 4,
+      "checks": 5,
+      "falhas": 5,
       "degradados": 0,
       "uptime_pct": 0.0
     }
@@ -449,7 +449,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -563,9 +563,9 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
-      "degradados": 4,
+      "degradados": 5,
       "uptime_pct": 100.0
     }
   ],
@@ -677,7 +677,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -791,7 +791,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -905,7 +905,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -1019,7 +1019,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -1133,7 +1133,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -1247,7 +1247,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -1361,7 +1361,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -1475,7 +1475,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -1589,7 +1589,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -1703,7 +1703,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -1817,7 +1817,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -1931,7 +1931,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
@@ -2045,7 +2045,7 @@
     },
     {
       "dia": "2026-10-30",
-      "checks": 4,
+      "checks": 5,
       "falhas": 0,
       "degradados": 0,
       "uptime_pct": 100.0
