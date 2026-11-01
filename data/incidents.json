@@ -865,8 +865,8 @@
     "nome": "API",
     "status": "offline",
     "inicio": "2026-11-01T09:56:20.674680481Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-11-01T11:58:03.851723156Z",
+    "duracao_s": 7303,
     "issue": 87
   },
   {
@@ -875,8 +875,8 @@
     "nome": "Engine via API",
     "status": "offline",
     "inicio": "2026-11-01T09:56:20.674680481Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-11-01T11:58:03.851723156Z",
+    "duracao_s": 7303,
     "issue": 88
   },
   {
@@ -885,8 +885,8 @@
     "nome": "n8n",
     "status": "offline",
     "inicio": "2026-11-01T09:56:20.674680481Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-11-01T11:58:03.851723156Z",
+    "duracao_s": 7303,
     "issue": 89
   },
   {
@@ -895,8 +895,8 @@
     "nome": "EasyPanel",
     "status": "offline",
     "inicio": "2026-11-01T09:56:20.674680481Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-11-01T11:58:03.851723156Z",
+    "duracao_s": 7303,
     "issue": 90
   },
   {
@@ -905,8 +905,8 @@
     "nome": "Workspace",
     "status": "offline",
     "inicio": "2026-11-01T09:56:20.674680481Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-11-01T11:58:03.851723156Z",
+    "duracao_s": 7303,
     "issue": 91
   },
   {
@@ -915,8 +915,8 @@
     "nome": "Admin",
     "status": "offline",
     "inicio": "2026-11-01T09:56:20.674680481Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-11-01T11:58:03.851723156Z",
+    "duracao_s": 7303,
     "issue": 92
   },
   {
@@ -925,8 +925,8 @@
     "nome": "Postgres",
     "status": "offline",
     "inicio": "2026-11-01T09:56:20.674680481Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-11-01T11:58:03.851723156Z",
+    "duracao_s": 7303,
     "issue": 93
   }
 ]
