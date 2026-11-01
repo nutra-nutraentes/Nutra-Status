@@ -1,17 +1,17 @@
 {
   "admin": {
-    "status": "online",
-    "desde": "2026-10-28T19:00:39.740544643Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-11-01T09:56:20.674680481Z",
+    "ultimo_aviso": "2026-11-01T09:56:20.674680481Z",
+    "issue": 92,
+    "incidente": "admin-1793526980"
   },
   "api": {
-    "status": "online",
-    "desde": "2026-10-29T02:42:39.152124935Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-11-01T09:56:20.674680481Z",
+    "ultimo_aviso": "2026-11-01T09:56:20.674680481Z",
+    "issue": 87,
+    "incidente": "api-1793526980"
   },
   "api-web": {
     "status": "offline",
@@ -56,11 +56,11 @@
     "incidente": null
   },
   "easypanel": {
-    "status": "online",
-    "desde": "2026-10-28T19:00:39.740544643Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-11-01T09:56:20.674680481Z",
+    "ultimo_aviso": "2026-11-01T09:56:20.674680481Z",
+    "issue": 90,
+    "incidente": "easypanel-1793526980"
   },
   "engine": {
     "status": "online",
@@ -70,11 +70,11 @@
     "incidente": null
   },
   "engine-proxy": {
-    "status": "online",
-    "desde": "2026-10-29T02:42:39.152124935Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-11-01T09:56:20.674680481Z",
+    "ultimo_aviso": "2026-11-01T09:56:20.674680481Z",
+    "issue": 88,
+    "incidente": "engine-proxy-1793526980"
   },
   "firebase": {
     "status": "online",
@@ -91,18 +91,18 @@
     "incidente": null
   },
   "n8n": {
-    "status": "online",
-    "desde": "2026-10-28T19:00:39.740544643Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-11-01T09:56:20.674680481Z",
+    "ultimo_aviso": "2026-11-01T09:56:20.674680481Z",
+    "issue": 89,
+    "incidente": "n8n-1793526980"
   },
   "postgres": {
-    "status": "online",
-    "desde": "2026-10-28T19:00:39.740544643Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-11-01T09:56:20.674680481Z",
+    "ultimo_aviso": "2026-11-01T09:56:20.674680481Z",
+    "issue": 93,
+    "incidente": "postgres-1793526980"
   },
   "qdrant": {
     "status": "online",
@@ -119,10 +119,10 @@
     "incidente": null
   },
   "workspace": {
-    "status": "online",
-    "desde": "2026-10-28T19:00:39.740544643Z",
-    "ultimo_aviso": null,
-    "issue": null,
-    "incidente": null
+    "status": "offline",
+    "desde": "2026-11-01T09:56:20.674680481Z",
+    "ultimo_aviso": "2026-11-01T09:56:20.674680481Z",
+    "issue": 91,
+    "incidente": "workspace-1793526980"
   }
 }

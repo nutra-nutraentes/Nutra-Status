@@ -858,5 +858,75 @@
     "fim": "2026-10-29T02:42:39.152124935Z",
     "duracao_s": 11821,
     "issue": 86
+  },
+  {
+    "id": "api-1793526980",
+    "servico": "api",
+    "nome": "API",
+    "status": "offline",
+    "inicio": "2026-11-01T09:56:20.674680481Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 87
+  },
+  {
+    "id": "engine-proxy-1793526980",
+    "servico": "engine-proxy",
+    "nome": "Engine via API",
+    "status": "offline",
+    "inicio": "2026-11-01T09:56:20.674680481Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 88
+  },
+  {
+    "id": "n8n-1793526980",
+    "servico": "n8n",
+    "nome": "n8n",
+    "status": "offline",
+    "inicio": "2026-11-01T09:56:20.674680481Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 89
+  },
+  {
+    "id": "easypanel-1793526980",
+    "servico": "easypanel",
+    "nome": "EasyPanel",
+    "status": "offline",
+    "inicio": "2026-11-01T09:56:20.674680481Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 90
+  },
+  {
+    "id": "workspace-1793526980",
+    "servico": "workspace",
+    "nome": "Workspace",
+    "status": "offline",
+    "inicio": "2026-11-01T09:56:20.674680481Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 91
+  },
+  {
+    "id": "admin-1793526980",
+    "servico": "admin",
+    "nome": "Admin",
+    "status": "offline",
+    "inicio": "2026-11-01T09:56:20.674680481Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 92
+  },
+  {
+    "id": "postgres-1793526980",
+    "servico": "postgres",
+    "nome": "Postgres",
+    "status": "offline",
+    "inicio": "2026-11-01T09:56:20.674680481Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 93
   }
 ]
