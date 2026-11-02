@@ -14,11 +14,11 @@
     "incidente": null
   },
   "api-web": {
-    "status": "offline",
-    "desde": "2026-10-25T07:24:29.440299148Z",
-    "ultimo_aviso": "2026-11-02T08:02:13.044274547Z",
-    "issue": 59,
-    "incidente": "api-web-1792913069"
+    "status": "online",
+    "desde": "2026-11-02T18:43:10.231245423Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "arnut": {
     "status": "online",
@@ -30,7 +30,7 @@
   "cloudflare": {
     "status": "degradado",
     "desde": "2026-10-15T13:19:44.763452251Z",
-    "ultimo_aviso": "2026-11-02T08:02:13.044274547Z",
+    "ultimo_aviso": "2026-11-02T18:43:10.231245423Z",
     "issue": 1,
     "incidente": "cloudflare-1792070384"
   },
