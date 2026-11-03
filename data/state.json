@@ -30,7 +30,7 @@
   "cloudflare": {
     "status": "degradado",
     "desde": "2026-10-15T13:19:44.763452251Z",
-    "ultimo_aviso": "2026-11-03T01:28:21.169580159Z",
+    "ultimo_aviso": "2026-11-03T08:29:55.215358095Z",
     "issue": 1,
     "incidente": "cloudflare-1792070384"
   },
