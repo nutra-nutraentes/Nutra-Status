@@ -928,5 +928,15 @@
     "fim": "2026-11-01T11:58:03.851723156Z",
     "duracao_s": 7303,
     "issue": 93
+  },
+  {
+    "id": "api-web-1794501661",
+    "servico": "api-web",
+    "nome": "API Web",
+    "status": "offline",
+    "inicio": "2026-11-12T16:41:01.238361537Z",
+    "fim": null,
+    "duracao_s": null,
+    "issue": 94
   }
 ]
