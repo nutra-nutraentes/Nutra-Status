@@ -14,11 +14,11 @@
     "incidente": null
   },
   "api-web": {
-    "status": "offline",
-    "desde": "2026-11-12T16:41:01.238361537Z",
-    "ultimo_aviso": "2026-11-14T13:59:51.660847040Z",
-    "issue": 94,
-    "incidente": "api-web-1794501661"
+    "status": "online",
+    "desde": "2026-11-14T19:02:41.887678450Z",
+    "ultimo_aviso": null,
+    "issue": null,
+    "incidente": null
   },
   "arnut": {
     "status": "online",
