@@ -945,8 +945,8 @@
     "nome": "API Web",
     "status": "offline",
     "inicio": "2026-11-24T10:17:45.080430481Z",
-    "fim": null,
-    "duracao_s": null,
+    "fim": "2026-11-24T20:46:52.668314446Z",
+    "duracao_s": 37747,
     "issue": 95
   }
 ]
